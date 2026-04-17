@@ -1,0 +1,85 @@
+# -----------------------------
+# OS / Editor
+# -----------------------------
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# -----------------------------
+# Python / FastAPI backend
+# -----------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+
+# Test / coverage outputs
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# Logs
+*.log
+
+# Local databases/files
+*.db
+*.sqlite
+*.sqlite3
+
+# -----------------------------
+# Frontend / Next.js
+# -----------------------------
+node_modules/
+.next/
+out/
+
+# Frontend build and cache
+.turbo/
+.parcel-cache/
+.eslintcache
+*.tsbuildinfo
+
+# Frontend coverage
+coverage/
+
+# -----------------------------
+# Environment and secrets
+# -----------------------------
+.env
+.env.*
+!.env.example
+!.env*.example
+
+# -----------------------------
+# Docker runtime artifacts
+# -----------------------------
+*.pid
+*.seed
+*.pid.lock
+
+# -----------------------------
+# Project-specific temporary files
+# -----------------------------
+tmp/
+temp/
